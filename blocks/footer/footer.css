@@ -7,7 +7,7 @@
 
 @media screen and (max-width: 1280px) {
   .footer {
-    margin: 160px 48px 48px ;
+    margin: 160px 48px 48px;
   }
 }
 
@@ -20,7 +20,7 @@
 @media screen and (max-width: 700px) {
   .footer {
     flex-direction: column;
-    margin: 64px 16px 24px ;
+    margin: 64px 16px 24px;
     align-items: flex-start;
   }
 }
