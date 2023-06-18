@@ -1,18 +1,23 @@
 .footer__copyright {
   margin: 0;
-  font-weight: 400;
+  font-weight: normal;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 20px;
+  text-align: right;
+  max-width: 282px;
+  align-self: flex-end;
 }
 
-.footer__copyright:before {
-  content: '\00A9';
-  padding-right: 5px;
-}
-
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 950px) {
   .footer__copyright {
-    line-height: 14px;
-    padding-top: 16px;
+      align-self: center;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .footer__copyright {
+   text-align: start;
+   align-self: flex-start;
+   margin-top: 48px;
   }
 }
